@@ -40,12 +40,12 @@ export default function Maps() {
         setSuggestions([]);
       }
     };
-
-    window.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
+    if (typeof window !== "undefined") {
+      window.addEventListener("keydown", handleKeyDown);
+      return () => {
+        window.removeEventListener("keydown", handleKeyDown);
+      };
+    }
   }, [suggestions]);
 
   const handleSearch = (e) => {

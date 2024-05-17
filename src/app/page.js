@@ -1,12 +1,13 @@
+"use client";
 import React from "react";
-import Maps from "./components/Maps";
+import dynamic from "next/dynamic";
+
+const Maps = dynamic(() => import("../app/components/Maps"), {
+  ssr: false,
+});
 
 const page = () => {
-  return (
-    <div>
-      <Maps />
-    </div>
-  );
+  return <Maps />;
 };
 
 export default page;
