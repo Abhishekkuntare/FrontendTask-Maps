@@ -1,0 +1,428 @@
+[
+  {
+    "country": "France",
+    "geocode": [46.603354, 1.888334],
+    "cities": [
+      {
+        "geocode": [48.8566, 2.3522],
+        "name": "Paris",
+        "User": "john wreak ",
+        "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg",
+        "avtar":"https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [48.8566, 2.3522],
+        "name": "Paris",
+        "User": "Abhishek lol ",
+        "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg",
+        "avtar":"https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [43.6047, 1.4442],
+        "name": "Toulouse",
+        "User": "uese he",
+        "img": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/04/26/09/toulouse-shutterstock.jpg?width=1200&height=630&fit=crop",
+        "avtar":"https://images.pexels.com/photos/3772510/pexels-photo-3772510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "geocode": [55.3781, -3.4359],
+    "cities": [
+      {
+        "geocode": [51.5074, -0.1278],
+        "name": "London",
+        "User": "sam burg",
+        "img": "https://a.cdn-hotels.com/gdcs/production29/d1870/6a5ec560-bb25-11e8-970b-0242ac110006.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+        "avtar":"https://images.pexels.com/photos/2884842/pexels-photo-2884842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [52.6369, -1.1398],
+        "name": "Birmingham",
+        "User": "Park ushe",
+        "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/488000/488296-bullring-shopping-centre.jpg",
+        "avtar":"https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+      }
+    ]
+  },
+  {
+    "country": "United States",
+    "geocode": [37.0902, -95.7129],
+    "cities": [
+      {
+        "geocode": [40.7128, -74.006],
+        "name": "New York",
+        "User": "Max leio",
+        "img": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1559900037/DAM/Photos/Destinations/Americas/USA/New%20York/shutterstock_575711801.jpg",
+        "avtar":"https://images.pexels.com/photos/3772519/pexels-photo-3772519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [34.0522, -118.2437],
+        "name": "Los Angeles",
+        "User": "Silly wakl",
+        "img": "https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg",
+        "avtar":"https://images.pexels.com/photos/3772519/pexels-photo-3772519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "geocode": [36.2048, 138.2529],
+    "cities": [
+      {
+        "geocode": [35.6895, 139.6917],
+        "name": "Tokyo",
+        "User": "Jan hung",
+        "img": "https://media.cntraveler.com/photos/63482b255e7943ad4006df0b/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg",
+        "avtar":"https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [34.6937, 135.5023],
+        "name": "Osaka",
+        "User": "Luck harmer",
+        "img": "https://content.r9cdn.net/rimg/dimg/45/5f/5788029f-city-25901-16737226b47.jpg?width=1366&height=768&xhint=1747&yhint=789&crop=true",
+        "avtar":"https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "geocode": [35.8617, 104.1954],
+    "cities": [
+      {
+        "geocode": [39.9042, 116.4074],
+        "name": "Beijing",
+        "User": "abuk rek",
+        "img": "https://content.r9cdn.net/rimg/dimg/62/28/22c46ab3-city-3286-164700d5d0b.jpg?crop=true&width=1020&height=498",
+        "avtar":"https://images.pexels.com/photos/774091/pexels-photo-774091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [31.2304, 121.4737],
+        "name": "Shanghai",
+        "User": "joe cena",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Huangpu_Park_20124-Shanghai_%2832208802494%29.jpg/1200px-Huangpu_Park_20124-Shanghai_%2832208802494%29.jpg",
+        "avtar":"https://images.pexels.com/photos/3340337/pexels-photo-3340337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "geocode": [20.5937, 78.9629],
+    "cities": [
+      {
+        "geocode": [19.076, 72.8777],
+        "name": "Mumbai",
+        "User": "Pravin kunt",
+        "img": "https://www.tripsavvy.com/thmb/soWUDapWGtmRQbvvY5OFMdd8Ezs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1008831236-5c65d6bf4cedfd00014aa310.jpg",
+        "avtar":"https://images.pexels.com/photos/3025619/pexels-photo-3025619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [28.7041, 77.1025],
+        "name": "Delhi",
+        "User": "Aniket rav",
+        "img": "https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg",
+        "avtar":"https://images.pexels.com/photos/3760822/pexels-photo-3760822.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "geocode": [51.1657, 10.4515],
+    "cities": [
+      {
+        "geocode": [52.5200, 13.4050],
+        "name": "Berlin",
+        "User": "Hans Müller",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg/640px-Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg",
+        "avtar": "https://images.pexels.com/photos/2379009/pexels-photo-2379009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [48.1351, 11.5820],
+        "name": "Munich",
+        "User": "Klaus Schmidt",
+        "img": "https://cdn.britannica.com/06/152206-050-72BD5CAC/twin-towers-Church-of-Our-Lady-Munich.jpg",
+        "avtar": "https://images.pexels.com/photos/38237/pexels-photo-38237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "geocode": [41.8719, 12.5674],
+    "cities": [
+      {
+        "geocode": [41.9028, 12.4964],
+        "name": "Rome",
+        "User": "Giuseppe Rossi",
+        "img": "https://www.planetware.com/photos-large/I/italy-rome-colosseum.jpg",
+        "avtar": "https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [45.4408, 12.3155],
+        "name": "Venice",
+        "User": "Maria Rossi",
+        "img": "https://www.fodors.com/wp-content/uploads/2023/06/0-HERO-istockphoto-1388018793.jpg",
+        "avtar": "https://images.pexels.com/photos/2497985/pexels-photo-2497985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Australia",
+    "geocode": [-25.2744, 133.7751],
+    "cities": [
+      {
+        "geocode": [-33.8688, 151.2093],
+        "name": "Sydney",
+        "User": "Jack Smith",
+        "img": "https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1577545161018-1F9Z9ZZQG9JO2O4WCWQX/keith-zhu-qaNcz43MeY8-unsplash+%281%29.jpg?format=1500w",
+        "avtar": "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [-37.8136, 144.9631],
+        "name": "Melbourne",
+        "User": "Emily Johnson",
+        "img": "https://content.r9cdn.net/rimg/dimg/e7/e2/a092e93b-city-13998-1641eaba8a3.jpg?width=1366&height=768&xhint=1016&yhint=1024&crop=true",
+        "avtar": "https://images.pexels.com/photos/340874/pexels-photo-340874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "geocode": [56.1304, -106.3468],
+    "cities": [
+      {
+        "geocode": [45.4215, -75.6919],
+        "name": "Ottawa",
+        "User": "Sarah Johnson",
+        "img": "https://cdn.authentik.com/canada/images/section/images_list/5-ottawa-capitale-canada_5550.jpg",
+        "avtar": "https://images.pexels.com/photos/236198/pexels-photo-236198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [43.6532, -79.3832],
+        "name": "Toronto",
+        "User": "Michael Chang",
+        "img": "https://media.cntraveler.com/photos/5b2be6938b842c3b35c5d30c/2:1/w_2560%2Cc_limit/Toronto_getty-Images_748610951.jpg",
+        "avtar": "https://plus.unsplash.com/premium_photo-1689632031083-518b012767a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "geocode": [-14.2350, -51.9253],
+    "cities": [
+      {
+        "geocode": [-22.9068, -43.1729],
+        "name": "Rio de Janeiro",
+        "User": "Carlos Silva",
+        "img": "https://media.architecturaldigest.com/photos/56f4781d904aa1ac0ac47256/16:9/w_2580,c_limit/Cristo%20Redentor.jpg",
+        "avtar": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "geocode": [-23.5505, -46.6333],
+        "name": "São Paulo",
+        "User": "Ana Costa",
+        "img": "https://cdn.britannica.com/19/115519-050-D2B15CF0/view-Sao-Paulo.jpg",
+        "avtar": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Russia",
+    "geocode": [61.5240, 105.3188],
+    "cities": [
+      {
+        "geocode": [55.7558, 37.6176],
+        "name": "Moscow",
+        "User": "Dmitri Ivanov",
+        "img": "https://i.natgeofe.com/n/cdffa773-3e46-4c91-b847-d040cb1822c5/st-basils-cathedral-moscow-russia_16x9.jpg",
+        "avtar": "https://images.unsplash.com/photo-1561505457-3bcad021f8ee?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "geocode": [59.9343, 30.3351],
+        "name": "Saint Petersburg",
+        "User": "Olga Petrovna",
+        "img": "https://www.nationsonline.org/gallery/Russia/Kazan-Cathedral-St-Petersburg.jpg",
+        "avtar": "https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "South Africa",
+    "geocode": [-30.5595, 22.9375],
+    "cities": [
+      {
+        "geocode": [-25.7460, 28.1881],
+        "name": "Pretoria",
+        "User": "Themba Ndlovu",
+        "img": "https://cdn.britannica.com/78/123578-050-175A3753/Pretoria-SAf.jpg",
+        "avtar": "https://plus.unsplash.com/premium_photo-1661255424747-6ee7fd8d86f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "geocode": [-33.9249, 18.4241],
+        "name": "Cape Town",
+        "User": "Lerato Mbeki",
+        "img": "https://cdn.britannica.com/42/126842-050-0803BC41/Sea-Point-Cape-Town-SAf.jpg",
+        "avtar": "https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },{
+    "country": "Argentina",
+    "geocode": [-38.4161, -63.6167],
+    "cities": [
+      {
+        "geocode": [-34.6037, -58.3816],
+        "name": "Buenos Aires",
+        "User": "Diego Fernandez",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Buenos_Aires_con_las_puertas_abiertas_%28cropped%29.jpg/1200px-Buenos_Aires_con_las_puertas_abiertas_%28cropped%29.jpg",
+        "avtar": "https://images.pexels.com/photos/6281231/pexels-photo-6281231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [-31.4201, -64.1888],
+        "name": "Córdoba",
+        "User": "Sofia Ramirez",
+        "img": "https://static01.nyt.com/images/2023/12/30/travel/21Hours-Cordoba-pglz/21Hours-Cordoba-pglz-facebookJumbo.jpg",
+        "avtar": "https://images.unsplash.com/photo-1625621435205-2d09ed661a71?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "geocode": [40.4637, -3.7492],
+    "cities": [
+      {
+        "geocode": [40.4168, -3.7038],
+        "name": "Madrid",
+        "User": "Javier Martinez",
+        "img": "https://media.istockphoto.com/id/514769480/photo/madrid-spain-on-gran-via.jpg?s=612x612&w=0&k=20&c=5PDxqwnxYmudMHIs3ZkRJRE64153nnw-hJTH2zdryzc=",
+        "avtar": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "geocode": [41.3851, 2.1734],
+        "name": "Barcelona",
+        "User": "Maria Gonzalez",
+        "img": "https://media.timeout.com/images/105992807/750/422/image.jpg",
+        "avtar": "https://plus.unsplash.com/premium_photo-1671641797679-3b680a7d2109?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "Egypt",
+    "geocode": [26.8206, 30.8025],
+    "cities": [
+      {
+        "geocode": [30.0444, 31.2357],
+        "name": "Cairo",
+        "User": "Amir Salah",
+        "img": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/cairo-city-egypt-2020.jpg",
+        "avtar": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [25.6872, 32.6396],
+        "name": "Luxor",
+        "User": "Fatima Ali",
+        "img": "https://cdn.britannica.com/08/178108-050-F19D0A38/statues-entrance-Ramses-II-Luxor-temple-complex.jpg",
+        "avtar": "https://plus.unsplash.com/premium_photo-1665865607049-8fd985feabb5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "Thailand",
+    "geocode": [15.8700, 100.9925],
+    "cities": [
+      {
+        "geocode": [13.7563, 100.5018],
+        "name": "Bangkok",
+        "User": "Nongchai Somsri",
+        "img": "https://www.holidify.com/images/bgImages/BANGKOK%20.jpg",
+        "avtar": "https://images.pexels.com/photos/3835697/pexels-photo-3835697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [7.8804, 98.3923],
+        "name": "Phuket",
+        "User": "Kritika Tan",
+        "img": "https://touringhighlights.com/wp-content/uploads/2020/09/Phang-Nga-Bay-Phuket-Thailand.jpg",
+        "avtar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "United Arab Emirates",
+    "geocode": [23.4241, 53.8478],
+    "cities": [
+      {
+        "geocode": [25.2769, 55.2963],
+        "name": "Dubai",
+        "User": "Ahmed Al-Mansoori",
+        "img": "https://www.explore.com/img/gallery/what-you-should-know-before-planning-a-visit-to-dubais-burj-khalifa/l-intro-1677602366.jpg",
+        "avtar": "https://images.pexels.com/photos/210118/pexels-photo-210118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [24.4667, 54.3667],
+        "name": "Abu Dhabi",
+        "User": "Fatima Ahmed",
+        "img": "https://visitabudhabi.ae/-/media/project/vad/homepage/november-2023/regions-map/admap-dsk-1-19-12.jpg",
+        "avtar": "https://images.pexels.com/photos/4596885/pexels-photo-4596885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "geocode": [52.1326, 5.2913],
+    "cities": [
+      {
+        "geocode": [52.3667, 4.8945],
+        "name": "Amsterdam",
+        "User": "Sophie de Vries",
+        "img": "https://cdn.britannica.com/30/180130-138-4FC01CDD/Overview-Amsterdam.jpg?w=800&h=450&c=crop",
+        "avtar": "https://images.pexels.com/photos/271891/pexels-photo-271891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [51.9225, 4.4792],
+        "name": "Rotterdam",
+        "User": "Jasper van den Berg",
+        "img": "https://www.beesmart.city/hubfs/04-insights/03-city-portraits/01-city-portraits-en/smart-city-rotterdam/rotterdam-smart-city-social.jpg#keepProtocol",
+        "avtar": "https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  },
+  {
+    "country": "Turkey",
+    "geocode": [38.9637, 35.2433],
+    "cities": [
+      {
+        "geocode": [41.0082, 28.9784],
+        "name": "Istanbul",
+        "User": "Mehmet Yılmaz",
+        "img": "https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2018/10/26171002/shutterstock_291252509.jpg",
+        "avtar": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [38.4192, 27.1287],
+        "name": "Izmir",
+        "User": "Aylin Kaya",
+        "img": "https://mediaim.expedia.com/destination/1/aaca8e94b408aada4c5d82ffaab024cb.jpg",
+        "avtar": "https://images.pexels.com/photos/4793785/pexels-photo-4793785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "geocode": [35.9078, 127.7669],
+    "cities": [
+      {
+        "geocode": [37.5665, 126.9780],
+        "name": "Seoul",
+        "User": "Kim Min-jun",
+        "img": "https://cms-article.forbesindia.com/media/images/2020/Jan/img_127069_seoulsm.jpg",
+        "avtar": "https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "geocode": [35.1796, 129.0756],
+        "name": "Busan",
+        "User": "Lee Ji-eun",
+        "img": "https://dailytravelpill.com/wp-content/uploads/2019/02/seoul-temple-sunset.jpg",
+        "avtar": "https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?q=80&w=1941&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  }  
+]
