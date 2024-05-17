@@ -9,8 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "algoliasearch": "^4.23.3",
-    "leaflet": "^1.7.1",
+    "leaflet": "^1.9.4",
     "leaflet-control-geocoder": "^2.4.0",
     "next": "^14.2.3",
     "node": "^20.13.1",
@@ -18,9 +17,8 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-instantsearch-hooks-web": "^6.47.3",
-    "react-leaflet": "^4.1.0",
+    "react-leaflet": "^4.2.1",
     "react-leaflet-cluster": "^2.1.0",
-    "react-leaflet-search": "^2.0.1",
     "react-places-autocomplete": "^7.3.0"
   }
 }
