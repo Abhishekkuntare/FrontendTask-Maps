@@ -46,5 +46,21 @@
 
 .suggestion-list::-webkit-scrollbar-thumb {
   background: #b8b8b8; /* color of the scrollbar */
-  border-radius: 4px; /* roundness of the scrollbar */
+  border-radius: 1px; /* roundness of the scrollbar */
+}
+
+.suggestion-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.suggestion-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.suggestion-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.suggestion-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
