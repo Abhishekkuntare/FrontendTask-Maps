@@ -1,4 +1,5 @@
 // "use client";
+
 // import { useState, useRef, useEffect } from "react";
 // import "leaflet/dist/leaflet.css";
 // import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
@@ -10,6 +11,8 @@
 // export default function Maps() {
 //   const [searchName, setSearchName] = useState("");
 //   const [suggestions, setSuggestions] = useState([]);
+//   const [recentVisits, setRecentVisits] = useState([]);
+//   const [savedPlaces, setSavedPlaces] = useState([]);
 //   const mapRef = useRef(null);
 
 //   useEffect(() => {
@@ -34,6 +37,7 @@
 //             );
 //             if (firstCity) {
 //               mapRef.current.flyTo(firstCity.geocode, 10);
+//               addRecentVisit(firstCity, firstMatchedCity.country);
 //             }
 //           }
 //         }
@@ -47,6 +51,35 @@
 //       };
 //     }
 //   }, [suggestions]);
+
+//   const addRecentVisit = (city, country) => {
+//     setRecentVisits((prevVisits) => {
+//       const newVisit = {
+//         name: city.name,
+//         country: country,
+//         user: city.User,
+//         img: city.img,
+//         geocode: city.geocode,
+//         avtar: city.avtar,
+//       };
+//       const filteredVisits = prevVisits.filter(
+//         (visit) => visit.name !== city.name || visit.country !== country
+//       );
+//       return [newVisit, ...filteredVisits].slice(0, 5);
+//     });
+//   };
+
+//   const addSavedPlace = (place) => {
+//     setSavedPlaces((prevSaved) => {
+//       const isAlreadySaved = prevSaved.some(
+//         (saved) => saved.name === place.name && saved.country === place.country
+//       );
+//       if (!isAlreadySaved) {
+//         return [place, ...prevSaved];
+//       }
+//       return prevSaved;
+//     });
+//   };
 
 //   const handleSearch = (e) => {
 //     const value = e.target.value;
@@ -76,7 +109,141 @@
 //   const handleSuggestionClick = (suggestion) => {
 //     setSearchName(suggestion.name);
 //     mapRef.current.flyTo(suggestion.geocode, 10);
+//     addRecentVisit(suggestion, suggestion.country);
 //     setSuggestions([]);
+//   };
+
+//   const renderPlacesList = (places, title) => {
+//     const hasSavedPlaces = savedPlaces.length > 0;
+
+//     if (title === "Recents" && recentVisits.length === 0) {
+//       return null;
+//     }
+
+//     if (title === "Saved Places" && !hasSavedPlaces) {
+//       return null;
+//     }
+
+//     return (
+//       <div
+//         style={{
+//           position: "fixed",
+//           bottom: title === "Recents" ? "50%" : "20%",
+//           left: 5,
+//           zIndex: 1000,
+//           backgroundColor: "#fff",
+//           padding: "10px",
+//           borderRadius: "4px",
+//           boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+//           width: 230,
+//         }}
+//       >
+//         <h3 style={{ margin: "0 0 10px 0" }}>{title}</h3>
+//         <ul
+//           className="suggestion-list"
+//           style={{
+//             listStyleType: "none",
+//             padding: 0,
+//             margin: 0,
+//             maxHeight: "150px",
+//             overflowY: "auto",
+//           }}
+//         >
+//           {places.map((place, index) => (
+//             <li
+//               key={index}
+//               style={{
+//                 padding: "8px 12px",
+//                 cursor: "pointer",
+//                 borderBottom:
+//                   index !== places.length - 1 ? "1px solid #eee" : "none",
+//                 display: "flex",
+//                 alignItems: "center",
+//                 justifyContent: "space-between",
+//               }}
+//               onClick={() => mapRef.current.flyTo(place.geocode, 10)}
+//             >
+//               <div
+//                 style={{
+//                   display: "flex",
+//                   alignItems: "center",
+//                 }}
+//               >
+//                 <div
+//                   style={{
+//                     width: 40,
+//                     height: 40,
+//                     borderRadius: "50%",
+//                     overflow: "hidden",
+//                     marginRight: 10,
+//                   }}
+//                 >
+//                   <img
+//                     src={place.img}
+//                     alt={place.name}
+//                     style={{ width: "100%", height: "100%" }}
+//                   />
+//                 </div>
+//                 <div style={{ display: "flex", flexDirection: "column" }}>
+//                   <span
+//                     style={{
+//                       color: "black",
+//                       fontSize: "11px",
+//                       textTransform: "capitalize",
+//                     }}
+//                   >
+//                     {place.user}
+//                   </span>
+//                   <span style={{ fontSize: "11px", color: "#ABA0BB" }}>
+//                     {place.country}
+//                   </span>
+//                 </div>
+//               </div>
+//               {title === "Recents" && (
+//                 <button
+//                   onClick={(e) => {
+//                     e.stopPropagation();
+//                     toggleSave(place);
+//                   }}
+//                   style={{
+//                     backgroundColor: isSaved(place) ? "#ff5733" : "#845EC2",
+//                     color: "#fff",
+//                     border: "none",
+//                     borderRadius: "4px",
+//                     padding: "5px 10px",
+//                     cursor: "pointer",
+//                   }}
+//                 >
+//                   {isSaved(place) ? "Unsave" : "Save"}
+//                 </button>
+//               )}
+//             </li>
+//           ))}
+//         </ul>
+//       </div>
+//     );
+//   };
+
+//   const toggleSave = (place) => {
+//     if (isSaved(place)) {
+//       removeSavedPlace(place);
+//     } else {
+//       addSavedPlace(place);
+//     }
+//   };
+
+//   const isSaved = (place) => {
+//     return savedPlaces.some(
+//       (saved) => saved.name === place.name && saved.country === place.country
+//     );
+//   };
+
+//   const removeSavedPlace = (place) => {
+//     setSavedPlaces((prevSaved) =>
+//       prevSaved.filter(
+//         (saved) => saved.name !== place.name || saved.country !== place.country
+//       )
+//     );
 //   };
 
 //   return (
@@ -113,22 +280,21 @@
 //             outline: "none",
 //           }}
 //         />
-//         {searchName && ( // Show clear button only when searchName has value
+//         {searchName && (
 //           <button
-//             onClick={() => setSearchName("")} // Clear searchName on button click
+//             onClick={() => setSearchName("")}
 //             style={{
-//               position: "absolute", // Position the button absolutely
-//               top: "50%", // Center vertically
-//               right: "10px", // Align to the right
-//               transform: "translateY(-50%)", // Center vertically
+//               position: "absolute",
+//               top: "50%",
+//               right: "10px",
+//               transform: "translateY(-50%)",
 //               backgroundColor: "transparent",
 //               border: "none",
 //               cursor: "pointer",
 //               outline: "none",
 //             }}
 //           >
-//             <IoMdCloseCircle style={{ fontSize: "20px", color: "#8a8a8a" }} />{" "}
-//             {/* Cross icon */}
+//             <IoMdCloseCircle style={{ fontSize: "20px", color: "#8a8a8a" }} />
 //           </button>
 //         )}
 //       </div>
@@ -201,7 +367,7 @@
 //                       textTransform: "capitalize",
 //                     }}
 //                   >
-//                     {suggestion.user}{" "}
+//                     {suggestion.user}
 //                   </span>
 //                   <span style={{ fontSize: "13px", color: "#ABA0BB" }}>
 //                     <span style={{ fontSize: "13px" }}>{suggestion.name}</span>
@@ -212,6 +378,8 @@
 //             ))}
 //           </ul>
 //         </div>
+//         {renderPlacesList(recentVisits, "Recents")}
+//         {renderPlacesList(savedPlaces, "Saved Places")}
 //         <MapContainer
 //           ref={mapRef}
 //           style={{ height: "calc(100% - 40px)" }}
@@ -246,7 +414,6 @@
 //                               borderRadius: "50%",
 //                               width: "40px",
 //                               height: "40px",
-
 //                               marginRight: "10px",
 //                             }}
 //                             src={city.avtar}
@@ -287,12 +454,13 @@
 //   );
 // }
 
-//add saved and recent tabs
+
+
 "use client";
 
 import { useState, useRef, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, LayersControl } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import { divIcon } from "leaflet";
 import { IoIosSearch, IoMdCloseCircle } from "react-icons/io";
@@ -676,10 +844,30 @@ export default function Maps() {
           center={[48.8566, 2.3522]}
           zoom={3}
         >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
+          <LayersControl position="topright">
+            <LayersControl.BaseLayer checked name="Street View">
+              <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              />
+            </LayersControl.BaseLayer>
+            <LayersControl.BaseLayer name="Satellite View">
+              <TileLayer
+                attribution='&copy; <a href="https://www.maptiler.com/copyright/">MapTiler</a>'
+                url="https://api.maptiler.com/maps/hybrid/{z}/{x}/{y}.jpg?key=YOUR_MAPTILER_API_KEY"
+              />
+            </LayersControl.BaseLayer>
+            <LayersControl.Overlay name="Traffic">
+              <TileLayer
+                url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png"
+              />
+            </LayersControl.Overlay>
+            <LayersControl.Overlay name="Transit">
+              <TileLayer
+                url="https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=YOUR_THUNDERFOREST_API_KEY"
+              />
+            </LayersControl.Overlay>
+          </LayersControl>
           <MarkerClusterGroup chunkedLoading>
             {markersData.map((country, index) =>
               country.cities.map((city, cityIndex) =>
