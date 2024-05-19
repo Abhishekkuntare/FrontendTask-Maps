@@ -440,8 +440,8 @@
         "geocode": [20.6736, -103.344],
         "name": "Guadalajara",
         "User": "Sofia Hernandez",
-        "img": "https://static.toiimg.com/photo/79839384.cms",
-        "avtar": "https://images.unsplash.com/photo-1567624973331-12b14c8b88b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "img": "https://content.r9cdn.net/rimg/dimg/07/44/a2aa7449-city-18853-16d6777fff9.jpg?width=1366&height=768&xhint=1633&yhint=1108&crop=true",
+        "avtar": "https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
     ]
   },
@@ -493,14 +493,14 @@
         "name": "Mexico City",
         "User": "Alejandro Garcia",
         "img": "https://i.natgeofe.com/n/6c02ad5a-977b-4f12-b9c0-02ffb0736e07/metropolitan-cathedral-zocalo-mexico-city.JPG",
-        "avtar": "https://images.unsplash.com/photo-1563123237-45ba19ebc45d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "avtar": "https://images.pexels.com/photos/1187822/pexels-photo-1187822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "geocode": [20.9707, -89.6237],
         "name": "Merida",
         "User": "Sofia Hernandez",
-        "img": "https://i.natgeofe.com/n/6c02ad5a-977b-4f12-b9c0-02ffb0736e07/metropolitan-cathedral-zocalo-mexico-city.JPG",
-        "avtar": "https://images.unsplash.com/photo-1602842347226-28b40b2d2bf2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "img": "https://content.r9cdn.net/rimg/dimg/07/44/a2aa7449-city-18853-16d6777fff9.jpg?width=1366&height=768&xhint=1633&yhint=1108&crop=true",
+        "avtar": "https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
     ]
   },
@@ -571,14 +571,14 @@
           "name": "Mexico City",
           "User": "Alejandro Hernandez",
           "img": "https://traveler.marriott.com/wp-content/uploads/2021/10/Mexico-City-GI-1064279806.jpg",
-          "avatar": "https://images.unsplash.com/photo-1584395630826-0d83b72b16c3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "avatar": "https://images.pexels.com/photos/1187822/pexels-photo-1187822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
           "geocode": [20.9675, -89.6237],
           "name": "Merida",
           "User": "Gabriela Lopez",
           "img": "https://i.natgeofe.com/n/6c02ad5a-977b-4f12-b9c0-02ffb0736e07/metropolitan-cathedral-zocalo-mexico-city.JPG",
-          "avatar": "https://images.unsplash.com/photo-1534158890515-ae56be7d95d0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "avatar": "https://images.pexels.com/photos/4064817/pexels-photo-4064817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
       ]
     },
@@ -647,7 +647,7 @@
           "name": "São Paulo",
           "User": "Lucas Oliveira",
           "img": "https://keystoneacademic-res.cloudinary.com/image/upload/v1696429958/articles/educationscom/article-open-graph-image-19886.jpg",
-          "avatar": "https://images.unsplash.com/photo-1502083720864-799b4c7d99b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "avatar": "https://images.pexels.com/photos/4064817/pexels-photo-4064817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
           "geocode": [-22.9068, -43.1729],
@@ -692,7 +692,7 @@
           "name": "Los Angeles",
           "User": "James Williams",
           "img": "https://www.nationsonline.org/gallery/USA/Hollywood-sign.jpg",
-          "avatar": "https://images.unsplash.com/photo-1516903893057-46c129f61f87?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "avatar": "https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
       ]
     },
