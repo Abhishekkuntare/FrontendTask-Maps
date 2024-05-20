@@ -424,14 +424,14 @@ export default function Maps() {
             <LayersControl.BaseLayer name="Satellite View">
               <TileLayer
                 attribution='&copy; <a href="https://www.maptiler.com/copyright/">MapTiler</a>'
-                url="https://api.maptiler.com/maps/hybrid/{z}/{x}/{y}.jpg?key=YOUR_MAPTILER_API_KEY"
+                url="https://api.maptiler.com/maps/hybrid/{z}/{x}/{y}.jpg?key=iuTMzwUtz8fP4lVDhmZx"
               />
             </LayersControl.BaseLayer>
             <LayersControl.Overlay name="Traffic">
               <TileLayer url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" />
             </LayersControl.Overlay>
             <LayersControl.Overlay name="Transit">
-              <TileLayer url="https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=YOUR_THUNDERFOREST_API_KEY" />
+              <TileLayer url="https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=iuTMzwUtz8fP4lVDhmZx" />
             </LayersControl.Overlay>
           </LayersControl>
           <MarkerClusterGroup chunkedLoading>
