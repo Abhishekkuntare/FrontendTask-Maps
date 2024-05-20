@@ -13,12 +13,15 @@ import MarkerClusterGroup from "react-leaflet-cluster";
 import { divIcon } from "leaflet";
 import { IoIosSearch, IoMdCloseCircle } from "react-icons/io";
 import markersData from "../../../public/markers.json";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Maps() {
   const [searchName, setSearchName] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [recentVisits, setRecentVisits] = useState([]);
   const [savedPlaces, setSavedPlaces] = useState([]);
+  const [showRecents, setShowRecents] = useState(true);
+  const [showSavedPlaces, setShowSavedPlaces] = useState(true);
   const mapRef = useRef(null);
 
   useEffect(() => {
@@ -119,7 +122,7 @@ export default function Maps() {
     setSuggestions([]);
   };
 
-  const renderPlacesList = (places, title) => {
+  const renderPlacesList = (places, title, show, toggleShow) => {
     const hasSavedPlaces = savedPlaces.length > 0;
 
     if (title === "Recents" && recentVisits.length === 0) {
@@ -135,15 +138,30 @@ export default function Maps() {
         style={{
           position: "fixed",
           bottom: title === "Recents" ? "50%" : "20%",
-          left: 5,
+          left: show ? 5 : -230,
           zIndex: 1000,
           backgroundColor: "#fff",
           padding: "10px",
           borderRadius: "4px",
           boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
           width: 230,
+          transition: "left 0.3s",
         }}
       >
+        <button
+          onClick={toggleShow}
+          style={{
+            position: "absolute",
+            top: "10px",
+            right: "-30px",
+            backgroundColor: "#fff",
+            border: "1px solid #ddd",
+            borderRadius: "4px",
+            cursor: "pointer",
+          }}
+        >
+          {show ? <FaChevronLeft /> : <FaChevronRight />}
+        </button>
         <h3 style={{ margin: "0 0 10px 0" }}>{title}</h3>
         <ul
           className="suggestion-list"
@@ -384,8 +402,12 @@ export default function Maps() {
             ))}
           </ul>
         </div>
-        {renderPlacesList(recentVisits, "Recents")}
-        {renderPlacesList(savedPlaces, "Saved Places")}
+        {renderPlacesList(recentVisits, "Recents", showRecents, () =>
+          setShowRecents(!showRecents)
+        )}
+        {renderPlacesList(savedPlaces, "Saved Places", showSavedPlaces, () =>
+          setShowSavedPlaces(!showSavedPlaces)
+        )}
         <MapContainer
           ref={mapRef}
           style={{ height: "calc(100% - 40px)" }}
